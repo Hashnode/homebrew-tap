@@ -1,10 +1,10 @@
-require_relative "custom_download_strategy"
+require_relative "require_relative"
 class Hashnode < Formula
   desc "Get hashnode.com on your terminal"
   homepage "https://hashnode.com"
   url "https://github.com/hashnode/hashnode-cli/releases/download/v0.1.1/hashnode-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   version "0.1.1"
-  sha256 "ab9a4ad101f1214735c5b31fc750c2e6f196493f10fa316cc97a66cf23ba377c"
+  sha256 "3e4340d22b8fdc8007627332d6d5ba05b189ffcacf65df49d6bd31ef3641415e"
 
   def install
     bin.install "hashnode"
