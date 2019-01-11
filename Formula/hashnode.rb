@@ -1,9 +1,9 @@
 class Hashnode < Formula
   desc "Get hashnode.com on your terminal"
   homepage "https://hashnode.com"
-  url "https://github.com/hashnode/hashnode-cli/releases/download/v0.1.2/hashnode-darwin-amd64.tar.gz"
-  version "0.1.2"
-  sha256 "9d5587d2506f43bfee5585fbf6d473b4f4593df32a8193797a8ee4c659e8985f"
+  url "https://github.com/hashnode/hashnode-cli/releases/download/v0.1.3/hashnode-darwin-amd64.tar.gz"
+  version "0.1.3"
+  sha256 "7df3603a345924c799465921c304777e3fcafa765785c380954736dd4ee4156c"
 
   def install
     bin.install "hashnode"
